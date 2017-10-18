@@ -19,15 +19,62 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>YouTube React</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="../style/style.css">-->
+    <style>
+      .search-bar {
+          margin: 20px;
+          text-align: center;
+      }
+
+      .search-bar input {
+          width: 75%;
+      }
+
+      .video-item img {
+          max-width: 64px;
+      }
+
+      .video-detail .details {
+          margin-top: 10px;
+          padding: 10px;
+          border: 1px solid #ddd;
+          border-radius: 4px;
+      }
+
+      .list-group-item {
+          cursor: pointer;
+      }
+
+      .list-group-item:hover {
+          background-color: #eee;
+      }
+
+      .media-heading {
+        padding-left: 10px;
+      }
+
+      .details {
+        color: white;
+      }
+
+      .video-detail {
+        padding-left: 0px;
+        margin-bottom: 15px;
+      }
+
+      body {
+        background: #191919
+      }
+    </style>
   </head>
   <body>
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
-    <div id="app"></div>
+    <div id="app" class="container"></div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
